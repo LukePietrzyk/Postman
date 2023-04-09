@@ -1,0 +1,421 @@
+{
+	"info": {
+		"_postman_id": "68ea2beb-f4a2-4c70-9e4d-461ca8700ce5",
+		"name": "jsonPlaceholderAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24392166"
+	},
+	"item": [
+		{
+			"name": "HappyPath",
+			"item": [
+				{
+					"name": "Get posts - All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/posts",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"kjljkljk\",\r\n    \"id\": 207,\r\n    \"title\": \"Learn api - postman\",\r\n    \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/posts",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update existing post",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.test('Update post',()=>{\r",
+									"    pm.response.to.have.status(200)    \r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": 1,\r\n    \"title\": \"Learn api - postman\",\r\n    \"body\": \"xD\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/posts/2",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update existing comment",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.test('Update post',()=>{\r",
+									"    pm.response.to.have.status(200)    \r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"123\",\r\n    \"email\": \"456\",\r\n    \"body\": \"1337\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/comments/2",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"comments",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete post",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.test('Delete post',()=>{\r",
+									"    pm.response.to.have.status(200)    \r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"123\",\r\n    \"email\": \"456\",\r\n    \"body\": \"1337\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/posts/3",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Invalids inputs",
+			"item": [
+				{
+					"name": "Create post with type userId - string",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const jasonData = pm.response.json();\r",
+									"pm.test(\"Checking userId - not number\", function () {\r",
+									"    pm.expect(jasonData.userId).to.be.not.a('number');\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"hgjghjgh\",\r\n    \"id\": 207,\r\n    \"title\": \"Learn api - postman\",\r\n    \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/posts",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create post with existing number of id",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": 1,\r\n    \"id\": 2,\r\n    \"title\": \"Learn api - postman\",\r\n    \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/posts",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create post  - more then 50 characters in title",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const jasonData = pm.response.json();\r",
+									"pm.test(\"Checking title - more then 50 characters\", function () {\r",
+									"    pm.expect(jasonData.title.length).greaterThan(50)\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": 1,\r\n    \"id\": 2,\r\n    \"title\": \"Learn api - postman Learn api - postman Learn api - postmanLearn api - postman Learn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postmanLearn api - postman\",\r\n    \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/posts",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create post  - empty post with only id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const jasonData = pm.response.json();\r",
+									"pm.test(\"Checking title - more then 50 characters\", function () {\r",
+									"    pm.response.to.have.status(201)\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n    \"id\": 2\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/posts",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update not existing comment",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.test('Update not existing comments - status 200',()=>{\r",
+									"    pm.response.to.have.status(200)    \r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"123\",\r\n    \"email\": \"456\",\r\n    \"body\": \"1337\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/comments/200",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"comments",
+								"200"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete not existing post",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Delete post have status 200',()=>{\r",
+									"    pm.response.to.have.status(200)    \r",
+									"})\r",
+									"\r",
+									"pm.test('Delete post dont have status 404 - not found',()=>{\r",
+									"    pm.response.to.not.have.status(404)    \r",
+									"})\r",
+									"\r",
+									"pm.test('Delete post dont have status 204 - no content',()=>{\r",
+									"    pm.response.to.not.have.status(204)    \r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"123\",\r\n    \"email\": \"456\",\r\n    \"body\": \"1337\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/posts/3999",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"posts",
+								"3999"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
