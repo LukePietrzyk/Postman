@@ -1,2 +1,2 @@
 # Repo testing
-Collections to rest api. Repo contains examples of testing trello api and jasonPlaceHolderAPI 
+Collections to rest api. Repo contains examples of testing trello api and jasonPlaceHolderAPI. Some example of reports bugs.
