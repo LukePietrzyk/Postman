@@ -1,5 +1,5 @@
 ## Jira
-- Przykładowe raportowanie błędów wraz z opisem czego dotyczyło, nadaniem priorytetu, kroki do reprodukcji, aktualny oraz oczekiwany rezultat, środowisko, na którym wystąpił błąd.
+- Przykładowe raportowanie błędów wraz z opisem czego dotyczyło, nadaniem priorytetu, kroki do reprodukcji, aktualny oraz oczekiwany rezultat, środowisko, na którym wystąpił błąd. Zgłoszenie zawiera również zrzuty ekranu stworzone przy użyciu oprogramowania PicPick oraz filmy zawierające kroki do reprodukcji przy użyciu środowiska ShareX
 
 ## Testlink 
 
