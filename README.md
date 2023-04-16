@@ -23,7 +23,7 @@ W tym repozytorium przedstawiam swoje umiejętności w pracy z bazami danych i z
 
 W tym repozytorium przedstawiam swoje umiejętności w zakresie pracy z oprogramowaniem Postman. 
 
-//Zarządzanie środowiskami
+// Zarządzanie środowiskami
 
 - Stworzyć i zarządzać zmiennymi środowiskowymi w Postmanie
 - Używać różnych środowisk do testowania tych samych zapytań
