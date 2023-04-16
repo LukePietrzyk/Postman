@@ -6,7 +6,6 @@
 - Przykladowy wygenerowany raport zawierający plan testów oraz przypadki testowe wraz z ich rezultatem.
 
 ## Repozytorium SQL
-W tym repozytorium przedstawiam swoje umiejętności w pracy z bazami danych i zapytaniami SQL.
 
 ## Umiejętności
 - Praca z bazami danych MySQL
@@ -24,8 +23,6 @@ W tym repozytorium przedstawiam swoje umiejętności w pracy z bazami danych i z
 
 
 ## Umiejętności Postmana
-
-W tym repozytorium przedstawiam swoje umiejętności w zakresie pracy z oprogramowaniem Postman. 
 
 ## Zarządzanie środowiskami
 
