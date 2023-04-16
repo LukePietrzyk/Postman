@@ -25,14 +25,10 @@ W tym repozytorium przedstawiam swoje umiejętności w zakresie pracy z oprogram
 
 //Zarządzanie środowiskami
 
-Jestem w stanie:
-
 - Stworzyć i zarządzać zmiennymi środowiskowymi w Postmanie
 - Używać różnych środowisk do testowania tych samych zapytań
 
 // Tworzenie kolekcji i zapytań
-
-//Jestem w stanie:
 
 - Tworzyć nowe kolekcje w Postmanie i dodawać do nich zapytania
 - Tworzyć różne rodzaje zapytań HTTP, takie jak GET, POST, PUT, DELETE itp.
@@ -42,8 +38,6 @@ Jestem w stanie:
 - Importować i eksportować kolekcje Postmana w różnych formatach
 
 // Automatyzacja testów
-
-Jestem w stanie:
 
 - Tworzyć skrypty testów dla zapytań w Postmanie
 - Wykorzystywać zmienne w skryptach testów
