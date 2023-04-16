@@ -1,5 +1,9 @@
-// Repo testing
-Collections to rest api. Repo contains examples of testing trello api and jasonPlaceHolderAPI.Examples of report bugs in JIRA.
+## Jira
+- Przykładowe raportowanie błędów wraz z opisem czego dotyczyło, nadaniem priorytetu, kroki do reprodukcji, aktualny oraz oczekiwany rezultat, środowisko, na którym wystąpił błąd.
+
+## Testlink 
+
+- Przykladowy wygenerowany raport zawierający plan testów oraz przypadki testowe wraz z ich rezultatem.
 
 ## Repozytorium SQL
 W tym repozytorium przedstawiam swoje umiejętności w pracy z bazami danych i zapytaniami SQL.
