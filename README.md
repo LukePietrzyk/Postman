@@ -14,7 +14,7 @@ W tym repozytorium przedstawiam swoje umiejętności w pracy z bazami danych i z
 - Projekty SQL
 - Kody źródłowe
 
-// Cele
+## Cele
 - Rozwój umiejętności w pracy z bazami danych i zapytaniami SQL
 
 
