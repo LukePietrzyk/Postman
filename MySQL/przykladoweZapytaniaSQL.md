@@ -14,3 +14,21 @@ SELECT
             klienci.email_klienta)) as Zmieniony
 FROM
     klienci
+    
+    
+```
+## Zamiana wielkosci liter w imieniu i nazwisku -- (lukasZ pietrzyK)
+
+``` sql  
+SELECT 
+    CONCAT(SUBSTR(LOWER(klienci.imie_klienta),
+                1,
+                LENGTH(klienci.imie_klienta) - 1),
+            UPPER(SUBSTR(klienci.imie_klienta, - 1)),
+            ' ',
+           SUBSTR(LOWER(klienci.nazwisko_klienta),
+                1,
+                LENGTH(klienci.nazwisko_klienta) - 1),
+            UPPER(SUBSTR(klienci.nazwisko_klienta, - 1))) AS fullName
+FROM
+    klienci
