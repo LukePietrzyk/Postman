@@ -1,5 +1,6 @@
 ## Zamiana końcówki emailu z com na pl oraz z pl na com -- Uzycie pętli warunkowej 
 
+``` sql
 SELECT 
     klienci.email_klienta,
     IF(klienci.email_klienta LIKE '%@gmail.com%',
