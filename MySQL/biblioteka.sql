@@ -59,7 +59,7 @@ INSERT INTO borrowers VALUES (1, 'Jan', 'Kowalski', 'jankowalski@gmail.com', '11
 
 
 CREATE TABLE loans (
-  loan_id INT PRIMARY KEY auto_increment,
+  loan_id INT PRIMARY KEY,
   book_id INT,
   borrower_id INT,
   loan_date DATE,
@@ -73,7 +73,7 @@ INSERT INTO loans VALUES (1, 1, 1, '2022-03-01', '2022-03-15'),
 (3, 3, 3, '2021-02-06', NULL),
 (4, 4, 4, '2022-03-11', NULL),
 (5, 5, 5, '2023-04-12', NULL),
-(6,1,'2023-01-22',NULL);
+(6,1,6,'2023-01-22',NULL);
 
 
 
