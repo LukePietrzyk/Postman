@@ -32,7 +32,7 @@ CREATE TABLE books (
 
 INSERT INTO books (title, author_id, publisher, publication_year) VALUES
 ('Lalka', 1, 'A.S. Breslauer', 1890),
-('Chłopi', 2, 'Książka i Wiedza', 1904),
+('Potop', 2, 'Książka i Wiedza', 1904),
 ('Pan Tadeusz', 3, 'Księgarnia Jana Konstantego Paska', 1834),
 ('Popioły', 4, 'Czytelnik', 1904),
 ('Chłopi', 5, 'Książka i Wiedza', 1904),
