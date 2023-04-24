@@ -46,3 +46,6 @@ Umiejętności:
 - Definiowania asercji w skryptach testów, aby sprawdzać odpowiednie odpowiedzi serwera,
 - Tworzenia oraz wykorzystywania kolekcji testów do automatyzacji testów API
 
+## Cypress 
+
+# W przyszłości planuję rozbudowę tej sekcji wraz ze zdobywaniem doświadczenia związanym z testowaniem automatycznym w programie Cypress. Dążę do zdobycia wiedzy, aby osiągnąć przynajmniej poziom QA Juniora automatyzującego. W innej części repozytorium znajdują się przykładowe testy automatyczne, lecz z mojego punktu widzenia są dość trywialne i zawierają początkowe fazy nauki tego narzędzia.
