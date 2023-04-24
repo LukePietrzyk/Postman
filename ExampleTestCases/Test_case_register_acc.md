@@ -9,7 +9,7 @@ Funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika.
 **Cel:** Sprawdzenie czy użytkownik może stworzyć konto w systemie.
 
 
-**Kroki:**
+`**Kroki:**`
 1. Otwórz stronę https://www.eneba.com/pl/.
 2. Kliknij przycisk "Zarejestruj".
 3. Wprowadź poprawne wartości w polach formularza: E-mail, hasło, powtórz hasło.
