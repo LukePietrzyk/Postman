@@ -99,3 +99,16 @@ FROM
     books
         LEFT JOIN
     loans ON loans.book_id = books.book_id;
+
+-- Update wraz z zapytaniem zagnieżdżonym w celu zmiany daty wydania 
+UPDATE books 
+SET 
+    books.publication_year = 2000
+WHERE
+    books.author_id IN (SELECT 
+            authors.author_id
+        FROM
+            authors
+        WHERE
+            authors.first_name = 'J.K.'
+                AND authors.last_name = 'Rowling');
