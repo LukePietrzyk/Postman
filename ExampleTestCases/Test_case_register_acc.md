@@ -9,7 +9,7 @@ Funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika.
 **Cel:** Sprawdzenie czy użytkownik może stworzyć konto w systemie.
 
 
-_**Kroki:**_
+`_**Kroki:**_`
 1. Otwórz stronę https://www.eneba.com/pl/.
 2. Kliknij przycisk "Zarejestruj".
 3. Wprowadź poprawne wartości w polach formularza: E-mail, hasło, powtórz hasło.
@@ -21,10 +21,10 @@ _**Kroki:**_
 
 ## Przypadek testowy 1.2: Niepoprawna rejestracja użytkownika.
 
-**Cel:** Sprawdzenie braku możwliwości utowrzenia konta z niepoprawnym hasłem.
+`**Cel:**` Sprawdzenie braku możwliwości utowrzenia konta z niepoprawnym hasłem.
 
 
-**Kroki:**
+`_**Kroki:**_`
 1. Otwórz stronę https://www.eneba.com/pl/.
 2. Kliknij przycisk "Zarejestruj".
 3. Wprowadź niepoprawne wartości dla pola "hasło" oraz dla pola "powtórz hasło".
@@ -37,9 +37,9 @@ _**Kroki:**_
 
 ## Przypadek testowy 1.3: Niepoprawna rejestracja użytkownika przy użyciu niepoprawnego adresu E-mail.
 
-**Cel:** Sprawdzenie braku możwliwości utowrzenia konta przy użyciu niepoprawnych danych dla pola formularza (E-mail).
+`**Cel:**` Sprawdzenie braku możwliwości utowrzenia konta przy użyciu niepoprawnych danych dla pola formularza (E-mail).
 
-**Kroki:**
+`_**Kroki:**_`
 1. Otwórz stronę https://www.eneba.com/pl/.
 2. Kliknij przycisk "Zarejestruj".
 3. Wprowadź niepoprawny E-mail w polu zawierającym placeholder "E-mail".
