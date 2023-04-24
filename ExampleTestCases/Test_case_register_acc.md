@@ -2,7 +2,7 @@
 
 ## Opis
 
-Funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika. 
+Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika przy użyciu różnego rodzaju danych wejściowych. 
 
 ## Przypadek testowy 1.1: Poprawna rejestracja użytkownika
 
