@@ -17,6 +17,7 @@ Funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika.
 
 **Oczekiwany wynik:** Użytkownik powinien stworzyć konto na stronie eneba.com/pl/ <br>
 **Dane testowe:** E-mail: xyz@gmail.com<br>
+<br>
 **Autor: Łukasz Pietrzyk**<br>
 
 ## Przypadek testowy 1.2: Niepoprawna rejestracja użytkownika.
@@ -32,6 +33,7 @@ Funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika.
 
 **Oczekiwany wynik:** Pojawia się komunikat walidacyjny w różowej ramce wraz z komunikatem "Your password must include at least one number or special character." oraz rejestracja konta zakończyła się niepowodzeniem.<br>
 **Dane testowe:** E-mail: xyz@gmail.com<br>
+<br>
 **Autor: Łukasz Pietrzyk**<br>
 
 
