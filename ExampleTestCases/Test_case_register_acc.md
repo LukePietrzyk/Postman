@@ -47,4 +47,4 @@ Funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika.
 5. Kliknij przycisk "Stwórz konto". 
 
 **Oczekiwany wynik:** Pojawia się komunikat walidacyjny w różowej ramce wraz z komunikatem "To nie jest prawidłowy adres e-mail." oraz rejestracja konta zakończyła się niepowodzeniem. 
-**Autor: Łukasz Pietrzyk
+**Autor: Łukasz Pietrzyk**
