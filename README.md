@@ -8,13 +8,13 @@
 ## Repozytorium SQL
 
 ## Umiejętności
-- Praca z bazami danych MySQL
-- Tworzenie i zarządzanie tabelami, kluczami, indeksami i ograniczeniami
+- Praca z bazami danych MySQL,
+- Tworzenie i zarządzanie tabelami, kluczami, indeksami i ograniczeniami,
 - Pisania zapytań SQL z różnym stopniem skomplikowania
 
 ## Zawartość
-- Przykładowe zapytania SQL
-- Projekty SQL
+- Przykładowe zapytania SQL,
+- Projekt SQL,
 - Kody źródłowe
 
 ## Cele
@@ -26,22 +26,23 @@
 
 ## Zarządzanie środowiskami
 
-- Stworzyć i zarządzać zmiennymi środowiskowymi w Postmanie
-- Używać różnych środowisk do testowania tych samych zapytań
+- Umiejętność tworzenia oraz zarządzania różnymi środowiskowymi w Postmanie
+- Używanie różnych środowisk do testowania
 
 ## Tworzenie kolekcji i zapytań
 
-- Tworzyć nowe kolekcje w Postmanie i dodawać do nich zapytania
-- Tworzyć różne rodzaje zapytań HTTP, takie jak GET, POST, PUT, DELETE itp.
-- Konfigurować różne rodzaje autoryzacji dla zapytań
-- Konfigurować nagłówki zapytań 
-- Używać zmiennych w zapytaniach
-- Importować i eksportować kolekcje Postmana w różnych formatach
+Umiejętności:
+- Tworznie różnych rodzajów zapytań HTTP, w szczególności takich jak: GET, POST, PUT, DELETE,
+- Wykorzystywanie różnych rodzajów autoryzacji w zapytaniach, 
+- Modyfikowanie oraz konfigurowanie nagłówków zapytań,
+- Implementacji zmiennych definiowanych jako globalne, środowiskowe, dotyczące odpowiedniej kolekcji itp. w zapytaniach 
+- Importowania i eksportowania stworzonych kolekcji w różnych formatach.
 
 ## Automatyzacja testów
 
-- Tworzyć skrypty testów dla zapytań w Postmanie
-- Wykorzystywać zmienne w skryptach testów
-- Zdefiniować asercje w skryptach testów, aby sprawdzać odpowiedzi serwera
-- Używać kolekcji testów do automatyzacji testów API
+Umiejętności:
+- Tworzenia skryptów testów dla zapytań w środowisku Postman,
+- Implementacji zmiennych definiowanych jako globalne, środowiskowe itp w skryptach testów,
+- Definiowania asercji w skryptach testów, aby sprawdzać odpowiednie odpowiedzi serwera,
+- Tworzenia oraz wykorzystywania kolekcji testów do automatyzacji testów API
 
