@@ -30,7 +30,7 @@ Funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika.
 3. Wprowadź niepoprawne wartości dla pola "hasło" oraz dla pola "powtórz hasło".
 4. Kliknij przycisk "Stwórz konto". 
 
-**Oczekiwany wynik:** Pojawia się komunikat walidacyjny "Your password must include at least one number or special character." oraz użytkownik nie ma możliwości zarejestrowania konta.
+**Oczekiwany wynik:** Pojawia się komunikat walidacyjny w różowej ramce wraz z komunikatem "Your password must include at least one number or special character." oraz rejestracja konta zakończyła się niepowodzeniem.
 **Dane testowe: E-mail: xyz@gmail.com
 **Autor: Łukasz Pietrzyk
 
@@ -46,5 +46,5 @@ Funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika.
 4. Wprowadź poprawne dane dla formularza zawierającego  placeholder "Hasło" oraz "Powtórz hasło". 
 5. Kliknij przycisk "Stwórz konto". 
 
-**Oczekiwany wynik:** Pojawia się komunikat walidacyjny "To nie jest prawidłowy adres e-mail." oraz użytkownik nie ma możliwości zarejestrowania konta.
+**Oczekiwany wynik:** Pojawia się komunikat walidacyjny w różowej ramce wraz z komunikatem "To nie jest prawidłowy adres e-mail." oraz rejestracja konta zakończyła się niepowodzeniem. 
 **Autor: Łukasz Pietrzyk
