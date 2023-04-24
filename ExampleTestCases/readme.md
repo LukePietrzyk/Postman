@@ -16,8 +16,8 @@ Funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika.
 4. Kliknij przycisk "Stwórz konto". 
 
 **Oczekiwany wynik:** Użytkownik powinien stworzyć konto na stronie eneba.com/pl/ 
-Dane testowe: E-mail: xyz@gmail.com
-Autor: Łukasz Pietrzyk
+**Dane testowe: E-mail: xyz@gmail.com
+**Autor: Łukasz Pietrzyk
 
 ## Przypadek testowy 1.2: Niepoprawna rejestracja użytkownika.
 
@@ -31,8 +31,8 @@ Autor: Łukasz Pietrzyk
 4. Kliknij przycisk "Stwórz konto". 
 
 **Oczekiwany wynik:** Pojawia się komunikat walidacyjny "Your password must include at least one number or special character." oraz użytkownik nie ma możliwości zarejestrowania konta.
-Dane testowe: E-mail: xyz@gmail.com
-Autor: Łukasz Pietrzyk
+**Dane testowe: E-mail: xyz@gmail.com
+**Autor: Łukasz Pietrzyk
 
 
 ## Przypadek testowy 1.3: Niepoprawna rejestracja użytkownika przy użyciu niepoprawnego adresu E-mail.
@@ -47,4 +47,4 @@ Autor: Łukasz Pietrzyk
 5. Kliknij przycisk "Stwórz konto". 
 
 **Oczekiwany wynik:** Pojawia się komunikat walidacyjny "To nie jest prawidłowy adres e-mail." oraz użytkownik nie ma możliwości zarejestrowania konta.
-Autor: Łukasz Pietrzyk
+**Autor: Łukasz Pietrzyk
