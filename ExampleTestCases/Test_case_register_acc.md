@@ -146,4 +146,4 @@ Sprawdzenie funkcjonalności związanej z koszykiem produktów. Walidacja popraw
 Wygląda na to, że jeszcze nie wybrałeś swoich produktów" <br>
 
 <br>
-** Autor: Łukasz Pietrzyk ** <br>
+Autor: Łukasz Pietrzyk <br>
