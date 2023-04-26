@@ -140,7 +140,7 @@ Sprawdzenie funkcjonalności związanej z koszykiem produktów. Walidacja popraw
 **Kroki:**
 1. Otwarcie strony https://www.eneba.com/pl/.
 2. Kliknięcie przycisku otwarcia koszyka (ikona koszyka).
-3. Kliknięcie przycisku usunięcia produktu z koszyka (ikona kosza na smieci) .
+3. Kliknięcie przycisku usunięcia produktu z koszyka (ikona kosza na śmieci) .
  
 **Oczekiwany wynik:** Po wykonaniu powyższych kroków, dowolny produkt powinien zostać usunięty z koszyka oraz powinine pojawić się komunikat "Twój koszyk jest pusty.
 Wygląda na to, że jeszcze nie wybrałeś swoich produktów" <br>
