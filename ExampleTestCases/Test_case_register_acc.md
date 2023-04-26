@@ -51,3 +51,40 @@ Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użyt
 **Oczekiwany wynik:** Pojawia się komunikat walidacyjny w różowej ramce wraz z komunikatem "To nie jest prawidłowy adres e-mail." oraz rejestracja konta zakończyła się niepowodzeniem. <br>
 <br>
 **Autor: Łukasz Pietrzyk**<br>
+
+# Logowanie do serwisu eneba.com/pl/
+
+## Opis
+
+Sprawdzenie poprawności działania funkcjonolności logowania do aplikacji. 
+
+## Przypadek testowy 2.1: Poprawne logowanie użytkownika
+
+**Cel:** Celem jest sprawdzenie czy użytkownik ma możliwośc poprawnego zalogowania się do aplikacji przy wprowadzeniu poprawnych danyh w polah formularza.
+
+**Kroki:**
+1. Otwórz stronę https://www.eneba.com/pl/.
+2. Kliknij przycisk "Zaloguj".
+3. Wprowadź poprawne dane w polach formularza: E-mail, hasło.
+4. Kliknij przycisk "Zaloguj". 
+
+**Oczekiwany wynik:** Użytkownik poprawnie zalogowany do serwisu eneba.com/pl/<br>
+**Dane testowe:** E-mail: xyz@gmail.com, hasło:xyz <br>
+<br>
+**Autor: Łukasz Pietrzyk**<br>
+
+## Przypadek testowy 2.2: Logowanie przy użyciu nieprawidłowego E-mailu oraz prawidłowego hasła.
+
+**Cel:** Celem jest sprawdzenie czy użytkownik ma możliwośc poprawnego zalogowania się do aplikacji przy wprowadzeniu poprawnych danyh w polah formularza.
+
+**Kroki:**
+1. Otwórz stronę https://www.eneba.com/pl/.
+2. Kliknij przycisk "Zaloguj".
+3. Wprowadź niepoprawne dane w polach formularza: **"E-mail"**.
+4. Wprowadź poprawne dane w polach formularza: **"hasło"**.
+5. Kliknij przycisk "Zaloguj". 
+
+**Oczekiwany wynik:** Użytkownik poprawnie zalogowany do serwisu eneba.com/pl/<br>
+**Dane testowe:** E-mail: xyz@gmail.com, hasło:xyz <br>
+<br>
+**Autor: Łukasz Pietrzyk**<br>
