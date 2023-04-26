@@ -54,7 +54,8 @@ Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użyt
 
 # Logowanie do serwisu eneba.com/pl/
 
---- ## Opis
+***
+## Opis
 
 Sprawdzenie poprawności działania funkcjonolności logowania do aplikacji. 
 
