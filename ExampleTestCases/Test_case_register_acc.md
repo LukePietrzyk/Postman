@@ -51,10 +51,10 @@ Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użyt
 **Oczekiwany wynik:** Pojawia się komunikat walidacyjny w różowej ramce wraz z komunikatem "To nie jest prawidłowy adres e-mail." oraz rejestracja konta zakończyła się niepowodzeniem. <br>
 <br>
 **Autor: Łukasz Pietrzyk**<br>
-===
+
 # Logowanie do serwisu eneba.com/pl/
 
-## Opis
+--- ## Opis
 
 Sprawdzenie poprawności działania funkcjonolności logowania do aplikacji. 
 
