@@ -126,8 +126,25 @@ Sprawdzenie funkcjonalności związanej z koszykiem produktów. Walidacja popraw
 5. Sprawdź czy produkt został prawidłowo dodany do koszyka.
 6. Sprawdź czy wyświetlana liczba produktów zwiększyła się o 1. 
 
+**Oczekiwany wynik:** Po wykonaniu powyższych kroków, dowolny produkt powinien zostać dodany do koszyka, a liczba znajdujących produktów w koszyku zwiększyła się o 1 <br>
+
+<br>
+**Autor: Łukasz Pietrzyk** <br>
+
+
+## Przypadek testowy 3.2: Usunięcie produktu z koszyka.
+
+**Cel:** Sprawdzenie, czy użytkownik ma możliwość usunięcia produktów z koszyka. 
+
+**Kroki:**
+1. Otwórz stronę https://www.eneba.com/pl/.
+2. Kliknij dowolny produkt znajdujący się na stronie.
+3. Naciśnij przycisk zawierający przycisk z placeholderem "Dodaj do koszyka" dla dowolnego produktu.
+4. Naciśnij na koszyk znajdujący się po lewej stronie od nazwy użytkownika.
+5. Sprawdź czy produkt został prawidłowo dodany do koszyka.
+6. Sprawdź czy wyświetlana liczba produktów zwiększyła się o 1. 
+
 **Oczekiwany wynik:** Po wykonaniu powyższych kroków, dowolny produkt powinien zostać dodany do koszyka, a liczba znajdujących produktów zwiększyła się o 1 <br>
 
 <br>
-**Autor: Łukasz Pietrzyk**<br>
-
+**Autor: Łukasz Pietrzyk** <br>
