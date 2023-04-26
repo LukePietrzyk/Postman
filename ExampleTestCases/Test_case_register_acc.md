@@ -108,7 +108,7 @@ Sprawdzenie poprawności działania funkcjonolności logowania do aplikacji.
 
 ***
 
-# ID: T_003: Dodawanie produktów do koszyka https://www.eneba.com/pl/
+# ID: T_003: Walidacja funkcjonalności związanych z koszykiem dla aplikacji https://www.eneba.com/pl/
 
 ## Opis
 
