@@ -1,4 +1,4 @@
-# Rejestracja nowego użytkownika na stronie https://www.eneba.com/pl/
+# ID:T_001: Rejestracja nowego użytkownika na stronie https://www.eneba.com/pl/
 
 ## Opis
 
@@ -53,7 +53,7 @@ Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użyt
 **Autor: Łukasz Pietrzyk**<br>
 
 ***
-# Logowanie do serwisu https://www.eneba.com/pl/
+# ID:T_002: Logowanie do serwisu https://www.eneba.com/pl/
 
 ## Opis
 
@@ -108,24 +108,25 @@ Sprawdzenie poprawności działania funkcjonolności logowania do aplikacji.
 
 ***
 
-# Dodawanie produktów do koszyka https://www.eneba.com/pl/
+# ID:T_003: Dodawanie produktów do koszyka https://www.eneba.com/pl/
 
 ## Opis
 
-Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika przy użyciu różnego rodzaju danych wejściowych. 
+Sprawdzenie funkcjonalności związanej z koszykiem produktów. Walidacja poprawności działania. 
 
-## Przypadek testowy 1.1: Poprawna rejestracja użytkownika
+## Przypadek testowy 3.1: Sprawdzenie dodawania produktów do koszyka wraz weryfikacja licznika produktów w koszyku.
 
-**Cel:** Sprawdzenie czy użytkownik może stworzyć konto w systemie.
+**Cel:** Sprawdzenie, czy użytkownik ma możliwość dodania produktów do koszyka. Walidacja zwiększenia ilości produktów  w przypadku dodania kolenego produktu do koszyka.
 
-**Warunki wstępne:** Zaloguj się do aplikacji https://www.eneba.com/pl/<br>
 **Kroki:**
 1. Otwórz stronę https://www.eneba.com/pl/.
-2. Kliknij przycisk "Zarejestruj".
-3. Wprowadź poprawne wartości w polach formularza: E-mail, hasło, powtórz hasło.
-4. Kliknij przycisk "Stwórz konto". 
+2. Kliknij dowolny produkt znajdujący się na stronie.
+3. Naciśnij przycisk zawierający przycisk z placeholderem "Dodaj do koszyka" dla dowolnego produktu.
+4. Naciśnij na koszyk znajdujący się po lewej stronie od nazwy użytkownika.
+5. Sprawdź czy produkt został prawidłowo dodany do koszyka.
+6. Sprawdź czy wyświetlana liczba produktów zwiększyła się o 1. 
 
-**Oczekiwany wynik:** Użytkownik powinien stworzyć konto na stronie eneba.com/pl/ <br>
+**Oczekiwany wynik:** Po wykonaniu powyższych kroków, dowolny produkt powinien zostać dodany do koszyka, a liczba znajdujących produktów zwiększyła się o 1 <br>
 
 <br>
 **Autor: Łukasz Pietrzyk**<br>
