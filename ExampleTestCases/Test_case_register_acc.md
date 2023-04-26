@@ -105,3 +105,28 @@ Sprawdzenie poprawności działania funkcjonolności logowania do aplikacji.
 **Dane testowe:** E-mail: xyz@123.com, hasło:xyz <br>
 <br>
 **Autor: Łukasz Pietrzyk**<br>
+
+***
+
+# Rejestracja nowego użytkownika na stronie eneba.com/pl/
+
+## Opis
+
+Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użytkownika przy użyciu różnego rodzaju danych wejściowych. 
+
+## Przypadek testowy 1.1: Poprawna rejestracja użytkownika
+
+**Cel:** Sprawdzenie czy użytkownik może stworzyć konto w systemie.
+
+
+**Kroki:**
+1. Otwórz stronę https://www.eneba.com/pl/.
+2. Kliknij przycisk "Zarejestruj".
+3. Wprowadź poprawne wartości w polach formularza: E-mail, hasło, powtórz hasło.
+4. Kliknij przycisk "Stwórz konto". 
+
+**Oczekiwany wynik:** Użytkownik powinien stworzyć konto na stronie eneba.com/pl/ <br>
+**Dane testowe:** E-mail: xyz@gmail.com<br>
+<br>
+**Autor: Łukasz Pietrzyk**<br>
+
