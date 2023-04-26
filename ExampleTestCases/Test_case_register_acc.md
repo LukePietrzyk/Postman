@@ -1,4 +1,4 @@
-# Rejestracja nowego użytkownika na stronie eneba.com/pl/
+# Rejestracja nowego użytkownika na stronie https://www.eneba.com/pl/
 
 ## Opis
 
@@ -53,7 +53,7 @@ Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użyt
 **Autor: Łukasz Pietrzyk**<br>
 
 ***
-# Logowanie do serwisu eneba.com/pl/
+# Logowanie do serwisu https://www.eneba.com/pl/
 
 ## Opis
 
@@ -108,7 +108,7 @@ Sprawdzenie poprawności działania funkcjonolności logowania do aplikacji.
 
 ***
 
-# Rejestracja nowego użytkownika na stronie eneba.com/pl/
+# Dodawanie produktów do koszyka https://www.eneba.com/pl/
 
 ## Opis
 
@@ -118,7 +118,7 @@ Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użyt
 
 **Cel:** Sprawdzenie czy użytkownik może stworzyć konto w systemie.
 
-
+**Warunki wstępne:** Zaloguj się do aplikacji https://www.eneba.com/pl/<br>
 **Kroki:**
 1. Otwórz stronę https://www.eneba.com/pl/.
 2. Kliknij przycisk "Zarejestruj".
@@ -126,7 +126,7 @@ Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użyt
 4. Kliknij przycisk "Stwórz konto". 
 
 **Oczekiwany wynik:** Użytkownik powinien stworzyć konto na stronie eneba.com/pl/ <br>
-**Dane testowe:** E-mail: xyz@gmail.com<br>
+
 <br>
 **Autor: Łukasz Pietrzyk**<br>
 
