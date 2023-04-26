@@ -75,7 +75,7 @@ Sprawdzenie poprawności działania funkcjonolności logowania do aplikacji.
 
 ## Przypadek testowy 2.2: Logowanie przy użyciu nieprawidłowego E-mailu oraz prawidłowego hasła.
 
-**Cel:** Celem jest sprawdzenie czy użytkownik ma możliwośc poprawnego zalogowania się do aplikacji przy wprowadzeniu poprawnych danyh w polah formularza.
+**Cel:** Celem jest sprawdzenie czy użytkownik nie może się zalogować przy użyciu prawidłowego hasła oraz niepoprwanych danych dla pola formularza E-mail.
 
 **Kroki:**
 1. Otwórz stronę https://www.eneba.com/pl/.
@@ -84,7 +84,23 @@ Sprawdzenie poprawności działania funkcjonolności logowania do aplikacji.
 4. Wprowadź poprawne dane w polach formularza: **"hasło"**.
 5. Kliknij przycisk "Zaloguj". 
 
-**Oczekiwany wynik:** Użytkownik poprawnie zalogowany do serwisu eneba.com/pl/<br>
-**Dane testowe:** E-mail: xyz@gmail.com, hasło:xyz <br>
+**Oczekiwany wynik:** Użytkownik nie zalogowany do serwisu oraz wyświetla się komunikat walidacyjny o treści: "Podano niepoprawne dane uwierzytelniające" <br>
+**Dane testowe:** E-mail: xyz@123.com, hasło:xyz <br>
+<br>
+**Autor: Łukasz Pietrzyk**<br>
+
+## Przypadek testowy 2.3: Logowanie przy użyciu prawidłowego E-mailu oraz nieprawidłowego hasła.
+
+**Cel:** Celem jest sprawdzenie komunikatu walidacyjnego oraz sprawdzenie braku możliwości zalogowania się użytkownika przy użyciu prawidłowego E-mailu i błędnego hasła.
+
+**Kroki:**
+1. Otwórz stronę https://www.eneba.com/pl/.
+2. Kliknij przycisk "Zaloguj".
+3. Wprowadź poprawne dane w polach formularza: **"E-mail"**.
+4. Wprowadź niepoprawne dane w polach formularza: **"hasło"**.
+5. Kliknij przycisk "Zaloguj". 
+
+**Oczekiwany wynik:** Użytkownik nie zalogowany do serwisu oraz wyświetla się komunikat walidacyjny w kolorze różowym o treści: "Podano niepoprawne dane uwierzytelniające" <br>
+**Dane testowe:** E-mail: xyz@123.com, hasło:xyz <br>
 <br>
 **Autor: Łukasz Pietrzyk**<br>
