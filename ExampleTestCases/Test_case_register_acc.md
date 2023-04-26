@@ -52,9 +52,9 @@ Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użyt
 <br>
 **Autor: Łukasz Pietrzyk**<br>
 
+***
 # Logowanie do serwisu eneba.com/pl/
 
-***
 ## Opis
 
 Sprawdzenie poprawności działania funkcjonolności logowania do aplikacji. 
