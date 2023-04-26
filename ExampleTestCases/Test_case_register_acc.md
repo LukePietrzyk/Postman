@@ -1,4 +1,4 @@
-# ID:T_001: Rejestracja nowego użytkownika na stronie https://www.eneba.com/pl/
+# ID: T_001: Rejestracja nowego użytkownika na stronie https://www.eneba.com/pl/
 
 ## Opis
 
@@ -53,7 +53,7 @@ Sprawdzenie funkcjonalność rejestracji pozwalająca na utworzenie nowego użyt
 **Autor: Łukasz Pietrzyk**<br>
 
 ***
-# ID:T_002: Logowanie do serwisu https://www.eneba.com/pl/
+# ID: T_002: Logowanie do serwisu https://www.eneba.com/pl/
 
 ## Opis
 
@@ -108,7 +108,7 @@ Sprawdzenie poprawności działania funkcjonolności logowania do aplikacji.
 
 ***
 
-# ID:T_003: Dodawanie produktów do koszyka https://www.eneba.com/pl/
+# ID: T_003: Dodawanie produktów do koszyka https://www.eneba.com/pl/
 
 ## Opis
 
