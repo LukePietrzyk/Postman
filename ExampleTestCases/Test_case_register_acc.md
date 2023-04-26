@@ -129,7 +129,7 @@ Sprawdzenie funkcjonalności związanej z koszykiem produktów. Walidacja popraw
 **Oczekiwany wynik:** Po wykonaniu powyższych kroków, dowolny produkt powinien zostać dodany do koszyka, a liczba znajdujących produktów w koszyku zwiększyła się o 1 <br>
 
 <br>
-**Autor: Łukasz Pietrzyk** <br>
+Autor: Łukasz Pietrzyk <br>
 
 
 ## Przypadek testowy 3.2: Usunięcie produktu z koszyka.
