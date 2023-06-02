@@ -24,7 +24,7 @@
 
 
 
-## Umiejętności Postmana
+## Umiejętności dot. narzędzia Postman
 
 ## Zarządzanie środowiskami
 
