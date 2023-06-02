@@ -5,7 +5,7 @@
 
 ## Testlink 
 
-- Przykladowy wygenerowany raport zawierający plan testów oraz przypadki testowe wraz z ich rezultatem.
+- W celu nauki narzędzia został  wygenerowany przykladowy raport zawierający plan testów oraz przypadki testowe wraz z ich rezultatem.
 
 ## Repozytorium SQL
 
