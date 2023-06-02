@@ -28,7 +28,7 @@
 
 ## Zarządzanie środowiskami
 
-- Umiejętność tworzenia oraz zarządzania różnymi środowiskowymi w Postmanie
+- Umiejętność tworzenia oraz zarządzania różnymi środowiskami Postmanie
 - Używanie różnych środowisk do testowania
 
 ## Tworzenie kolekcji i zapytań
