@@ -50,4 +50,5 @@ Umiejętności:
 
 ## Cypress 
 
- W przyszłości planuję rozbudowę tej sekcji</pre> wraz ze zdobywaniem doświadczenia związanym z testowaniem automatycznym w programie Cypress. Dążę do zdobycia wiedzy, aby osiągnąć przynajmniej poziom QA Juniora automatyzującego. W innej części repozytorium znajdują się przykładowe testy automatyczne, lecz z mojego punktu widzenia są dość trywialne i zawierają początkowe fazy nauki tego narzędzia. 
+W celu nauki narzedzia cypress użyłem open source'owych stron do testowania autatycznego. Projekty zawierają testowanie poszczególnych funkcjonalności znajdujących się na stronach
+takich jak: buttons, radio buttons, form, text in tables, checkboxs, alersts i wiele innych. Testy są oparte na E2E wraz z wykorzystaniem Page Object pattern. 
