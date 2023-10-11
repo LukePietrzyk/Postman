@@ -1,51 +1,59 @@
 ## Umiejętności
 
 ## Jira
-- Przykładowe raportowanie błędów wraz z opisem czego dotyczyło, przypisaniem priorytetu, kroki do reprodukcji, aktualny oraz oczekiwany rezultat, środowisko, na którym wystąpił błąd. Zgłoszenie zawiera również zrzuty ekranu stworzone przy użyciu oprogramowania PicPick oraz filmy zawierające kroki do reprodukcji przy użyciu środowiska ShareX.
+- The folder contains sample bug reports with descriptions of the issues, priority assignments, steps to reproduce, current and expected results, and the environment in which the error occurred. The reports also include screenshots created using PicPick software and videos demonstrating the steps to reproduce the issues using ShareX.
 
-## Testlink 
+## SQL Repository
 
-- W celu nauki narzędzia został  wygenerowany przykladowy raport zawierający plan testów oraz przypadki testowe wraz z ich rezultatem.
+## Skills
+Working with MySQL databases.
+Creating and managing tables, keys, indexes, and constraints.
+Writing SQL queries with varying levels of complexity.
 
-## Repozytorium SQL
+##Contents
+Sample SQL queries.
+SQL project.
+Source code.
 
-## Umiejętności
-- Praca z bazami danych MySQL,
-- Tworzenie i zarządzanie tabelami, kluczami, indeksami i ograniczeniami,
-- Pisania zapytań SQL z różnym stopniem skomplikowania
-
-## Zawartość
-- Przykładowe zapytania SQL,
-- Projekt SQL,
-- Kody źródłowe
-
-## Cele
-- Rozwój umiejętności w pracy z bazami danych i zapytaniami SQL
+My experience includes working with complex queries involving aggregation functions such as 
+MIN,MAX,SUM,AVG, as well SELECT, CASE statements, WHERE clauses, JOIN operations, GROUP BY clauses, HAVING filters, and ORDER BY 
+clauses
 
 
+## Postman Tool Skills
 
-## Umiejętności dot. narzędzia Postman
+## Environment Management
 
-## Zarządzanie środowiskami
+- Ability to create and manage various environments in Postman.
+- Utilization of different environments for testing purposes.
 
-- Umiejętność tworzenia oraz zarządzania różnymi środowiskami Postmanie
-- Używanie różnych środowisk do testowania
+## Collection and Request Creation
 
-## Tworzenie kolekcji i zapytań
+Skills:
 
-Umiejętności:
-- Tworznie różnych rodzajów zapytań HTTP, w szczególności takich jak: GET, POST, PUT, DELETE,
-- Wykorzystywanie różnych rodzajów autoryzacji w zapytaniach, 
-- Modyfikowanie oraz konfigurowanie nagłówków zapytań,
-- Implementacji zmiennych definiowanych jako globalne, środowiskowe, dotyczące odpowiedniej kolekcji itp. w zapytaniach 
-- Importowania i eksportowania stworzonych kolekcji w różnych formatach.
+Creating various types of HTTP requests, especially those like GET, POST, PUT, DELETE.
+Utilizing different types of authentication in requests.
+Modifying and configuring request headers.
+Implementing variables defined as global, environmental, specific to a collection, etc., in requests.
+Importing and exporting created collections in various formats.
 
-## Automatyzacja testów
+## Test Automation in Postman
 
-Umiejętności:
-- Tworzenia skryptów testów dla zapytań w środowisku Postman,
-- Implementacji zmiennych definiowanych jako globalne, środowiskowe itp w skryptach testów,
-- Definiowania asercji w skryptach testów, aby sprawdzać odpowiednie odpowiedzi serwera,
-- Tworzenia oraz wykorzystywania kolekcji testów do automatyzacji testów API
+Skills:
+
+Creating test scripts for requests in the Postman environment.
+Implementing variables defined as global, environmental, etc., in test scripts.
+Defining assertions in test scripts to verify server responses.
+Creating and utilizing test collections for automating API tests.
 
 ## Cypress 
+
+Project on saucedemo.com:
+This project focused on testing e2e the website. It included tests for login functionality, product sorting, and adding items to the cart. 
+Assertions were used to ensure the correctness of the executed steps. 
+Cypress Project on rahulshettyacademy.com/AutomationPractice/: 
+Various functionalities, such as radio buttons, suggestion input, dropdown menus, and checkboxes, were tested on this website. Assertions 
+were employed to verify the accuracy of the actions performed. 
+Cypress Project on rahulshettyacademy.com/client: 
+The project centered on testing a registration form using the Page Object Model and data from a JSON file. Assertions were used to confirm 
+the form's correct operation.
