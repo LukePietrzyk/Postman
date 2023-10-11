@@ -48,12 +48,14 @@ Creating and utilizing test collections for automating API tests.
 
 ## Cypress 
 
-Project on saucedemo.com:
+- Project on saucedemo.com:
 This project focused on testing e2e the website. It included tests for login functionality, product sorting, and adding items to the cart. 
-Assertions were used to ensure the correctness of the executed steps. 
-Cypress Project on rahulshettyacademy.com/AutomationPractice/: 
+Assertions were used to ensure the correctness of the executed steps.
+
+- Cypress Project on rahulshettyacademy.com/AutomationPractice/: 
 Various functionalities, such as radio buttons, suggestion input, dropdown menus, and checkboxes, were tested on this website. Assertions 
-were employed to verify the accuracy of the actions performed. 
-Cypress Project on rahulshettyacademy.com/client: 
+were employed to verify the accuracy of the actions performed.
+
+- Cypress Project on rahulshettyacademy.com/client: 
 The project centered on testing a registration form using the Page Object Model and data from a JSON file. Assertions were used to confirm 
 the form's correct operation.
